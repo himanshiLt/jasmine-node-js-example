@@ -13,4 +13,4 @@ postRun:
   command: 
     - echo 'Done Testing'
 parallelism: 4
-version: 1.0
+version: 1.0.0
