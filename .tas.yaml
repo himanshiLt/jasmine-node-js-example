@@ -1,16 +1,18 @@
 ---
 framework: jasmine
-preRun: 
-  command: 
-    - npm ci   
+blocklist:
+ - "spec/unit/calculator.class.spec.js##Calculator Class"
 preMerge:
   pattern:
-    - "spec/**/*.spec.js"
+    - "spec/**/*.js"
 postMerge:
   pattern:
-    - "spec/**/*.spec.js"
+    - "spec/**/*.js"
+preRun: 
+  command: 
+    - npm ci    
 postRun:
   command: 
     - echo 'Done Testing'
-parallelism: 4
-version: 1.0.0
+parallelism : 4
+version: 1.0
