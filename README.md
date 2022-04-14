@@ -1,5 +1,6 @@
 # jasmine-node-js-example
 
+EDIT
 This is an example project for Jasmine tests written in JavaScript and running on Node.js.
 Run tests by simply running the `npm test` command from the project root directory.
 
