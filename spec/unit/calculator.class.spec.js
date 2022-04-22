@@ -31,7 +31,6 @@ describe("Calculator Class", function() {
     expect(calculator.last_answer).toBe(expected);
   }
 
-
   // add
 
   describe("add", function() {
