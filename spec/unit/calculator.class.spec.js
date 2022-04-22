@@ -4,7 +4,6 @@
 
 const calc = require('../../lib/calculator.class');
 
-
 // --------------------------------------------------------------------------------
 // Calculator Class Specs
 // 
