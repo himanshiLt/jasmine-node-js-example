@@ -5,7 +5,6 @@
 const rewire = require('rewire');
 const sinon = require('sinon');
 
-
 // --------------------------------------------------------------------------------
 // Rewirings
 //
