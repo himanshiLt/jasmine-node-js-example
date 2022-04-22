@@ -89,7 +89,7 @@ describe("WeatherCaller Class", function() {
     callForecastMock = sinon.stub().returns(newForecast);
     weatherModuleRestore = weather.__set__("callForecast", callForecastMock);
 
-    // More forecasts
+    // More forecasts - Edited
     let forecast4 = weatherCaller.getForecast(12, 26, 2017, 21047);
     let forecast5 = weatherCaller.getForecast(12, 27, 2017, 21047);
 
