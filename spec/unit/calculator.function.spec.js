@@ -16,6 +16,7 @@ const calc = require('../../lib/calculator.functions');
 
 describe("Calculator Functions", function() {
 
+  
   // add
 
   describe("add", function() {
@@ -30,6 +31,9 @@ describe("Calculator Functions", function() {
       expect(value).toBe(1);
     });
   
+    
+    
+    
     it("should give the same value when adding zero", function() {
       let value = calc.add(3, 0);
       expect(value).toBe(3);
@@ -52,6 +56,8 @@ describe("Calculator Functions", function() {
       expect(value).toBe(-1);
     });
   
+    
+    
     it("should give the same value when subtracting zero", function() {
       let value = calc.subtract(3, 0);
       expect(value).toBe(3);
@@ -69,6 +75,7 @@ describe("Calculator Functions", function() {
       expect(value).toBe(6);
     });
   
+    
     it("should multiply two negative numbers", function() {
       let value = calc.multiply(-3, -2);
       expect(value).toBe(6);
@@ -165,3 +172,9 @@ describe("Calculator Functions", function() {
   });
 
 });
+
+
+
+
+
+
