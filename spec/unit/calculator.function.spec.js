@@ -57,7 +57,6 @@ describe("Calculator Functions", function() {
     });
   
     
-    
     it("should give the same value when subtracting zero", function() {
       let value = calc.subtract(3, 0);
       expect(value).toBe(3);
