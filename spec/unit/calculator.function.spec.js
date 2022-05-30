@@ -171,9 +171,3 @@ describe("Calculator Functions", function() {
   });
 
 });
-
-
-
-
-
-
