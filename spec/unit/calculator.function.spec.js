@@ -48,7 +48,7 @@ describe("Calculator Functions", function() {
 
     it("should subtract two numbers", function() {
       let value = calc.subtract(3, 2);
-      expect(value).toBe(1);
+      expect(value).toBe(2);
     });
   
     it("should subtract two numbers for a negative result", function() {
